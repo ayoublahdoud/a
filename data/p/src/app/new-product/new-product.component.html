@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h2>Add New Product</h2>
+    </div>
+    <div class="card-body">
+      <form [formGroup]="productForm" (ngSubmit)="handleSaveProduct()">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" formControlName="name" />
+        </div>
+        <div class="form-group">
+          <label>Price</label>
+          <input type="number" class="form-control" formControlName="price" />
+        </div>
+        <div class="form-group">
+          <label>Category</label>
+          <input type="text" class="form-control" formControlName="category" />
+        </div>
+        <button class="btn btn-outline-info mt-3">Save</button>
+      </form>
+    </div>
+  </div>
+</div>
