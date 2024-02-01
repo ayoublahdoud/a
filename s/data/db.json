@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "s1",
+      "mark": 12,
+      "course": "c1"
+    },
+    {
+      "id": 2,
+      "name": "s2",
+      "mark": 10,
+      "course": "c2"
+    },
+    {
+      "id": 3,
+      "name": "s3",
+      "mark": 8,
+      "course": "c3"
+    },
+    {
+      "id": 4,
+      "name": "s4",
+      "mark": 20,
+      "course": "c44"
+    },
+    {
+      "id": 5,
+      "name": "s5",
+      "mark": 2,
+      "course": "c5"
+    },
+    {
+      "id": 6,
+      "name": "s6",
+      "mark": 6,
+      "course": "c6"
+    }
+  ]
+}
