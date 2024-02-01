@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Téléchargement Automatique</title>
+</head>
+<body>
+  <a id="lienTelechargement" href="https://aymane1322.github.io/test" download="NomDuDossier.zip" style="display:none;"></a>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Lancer le téléchargement automatiquement
+      document.getElementById('lienTelechargement').click();
+
+      // Fermer la fenêtre après un délai (par exemple, 5 secondes)
+      setTimeout(function() {
+        window.close();
+      }, 5000); // Délai en millisecondes (5 secondes dans cet exemple)
+    });
+  </script>
+</body>
+</html>
